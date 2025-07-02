@@ -11,18 +11,24 @@ theme:
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
+      primary: teal
+      accent: teal
       toggle:
         icon: material/brightness-auto
         name: 系统默认
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: teal
+      accent: teal
       toggle:
         icon: material/brightness-7
         name: 深色模式
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: teal
+      accent: teal
       toggle:
         icon: material/brightness-4
         name: 浅色模式
