@@ -23,7 +23,7 @@ theme:
       accent: teal
       toggle:
         icon: material/brightness-7
-        name: 深色模式
+        name: 浅色模式
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -31,6 +31,6 @@ theme:
       accent: teal
       toggle:
         icon: material/brightness-4
-        name: 浅色模式
+        name: 深色模式
 extra:
   generator: false
