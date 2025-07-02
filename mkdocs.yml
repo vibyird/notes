@@ -21,3 +21,5 @@ theme:
       toggle:
         icon: material/brightness-4
         name: 浅色模式
+extra:
+  generator: false
