@@ -1,6 +1,6 @@
 ---
+title: 主页
 hide:
 - navigation
 - toc
 ---
-# 主页
