@@ -73,6 +73,12 @@ plugins:
 extra:
   generator: false
 
+# Extensions
+markdown_extensions:
+- attr_list
+- md_in_html
+- pymdownx.blocks.caption
+
 # Page tree
 nav:
 - index.md
