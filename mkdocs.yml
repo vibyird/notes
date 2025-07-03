@@ -28,5 +28,12 @@ theme:
       toggle:
         icon: material/brightness-4
         name: 深色模式
+
+# Plugins
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: false
+
+# Additional configuration
 extra:
   generator: false
