@@ -1,5 +1,6 @@
 ---
 title: Welcome to MkDocs
+date: 2025-07-03
 ---
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
