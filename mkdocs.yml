@@ -9,30 +9,35 @@ copyright: Copyright &copy; 2025 Vibyird
 theme:
   name: material
   palette:
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: 系统默认
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: white
-      toggle:
-        icon: material/brightness-7
-        name: 浅色模式
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
-      toggle:
-        icon: material/brightness-4
-        name: 深色模式
+  # Palette toggle for automatic mode
+  - media: "(prefers-color-scheme)"
+    toggle:
+      icon: material/brightness-auto
+      name: 系统默认
+  # Palette toggle for light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: white
+    toggle:
+      icon: material/brightness-7
+      name: 浅色模式
+  # Palette toggle for dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: black
+    toggle:
+      icon: material/brightness-4
+      name: 深色模式
 
 # Plugins
 plugins:
-  - git-revision-date-localized:
-      enable_creation_date: false
+- git-revision-date-localized:
+    type: date
+    timezone: Asia/Shanghai
+    locale: zh_CN
+    enable_creation_date: true
+    exclude:
+    - index.md
 
 # Additional configuration
 extra:
