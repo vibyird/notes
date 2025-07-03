@@ -64,9 +64,10 @@ plugins:
     type: date
     timezone: Asia/Shanghai
     locale: zh_CN
-    enable_creation_date: true
+    enable_creation_date: false
     exclude:
     - index.md
+    - blog/*
 
 # Additional configuration
 extra:
