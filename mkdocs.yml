@@ -40,7 +40,7 @@ theme:
   # Palette toggle for automatic mode
   - media: "(prefers-color-scheme)"
     toggle:
-      icon: material/brightness-auto
+      icon: material/brightness-6
       name: 系统默认
   # Palette toggle for light mode
   - media: "(prefers-color-scheme: light)"
