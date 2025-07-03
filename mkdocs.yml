@@ -76,6 +76,8 @@ extra:
 nav:
 - 笔记: 
   - blog/index.md
-- 容器技术: 
+- 容器: 
   - container/index.md
   - Containerd: container/containerd.md
+- 网络: 
+  - network/index.md
