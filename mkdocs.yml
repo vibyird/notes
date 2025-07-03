@@ -59,6 +59,7 @@ theme:
 
 # Plugins
 plugins:
+- search
 - blog
 - git-revision-date-localized:
     type: date
