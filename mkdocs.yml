@@ -74,7 +74,7 @@ extra:
 
 # Page tree
 nav:
-- 博客: 
+- 笔记: 
   - blog/index.md
 - 容器技术: 
   - container/index.md
