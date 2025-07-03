@@ -1,5 +1,5 @@
 # Project information
-site_name: Notes
+site_name: 笔记
 site_url: https://notes.medowo.net
 
 # Copyright
@@ -73,5 +73,8 @@ extra:
 # Page tree
 nav:
 - 主页: index.md
+- 容器技术: 
+  - container/index.md
+  - Containerd: container/containerd.md
 - 博客: https://www.medowo.net/
 
