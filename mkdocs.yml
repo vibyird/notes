@@ -9,6 +9,7 @@ copyright: Copyright &copy; 2025 Vibyird
 theme:
   name: material
   language: zh
+  custom_dir: overrides
   features:
   # - announce.dismiss
   # - content.action.edit
@@ -59,6 +60,7 @@ theme:
 
 # Plugins
 plugins:
+- meta
 - search
 - blog
 - git-revision-date-localized:
