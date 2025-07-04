@@ -1,10 +1,4 @@
 ---
-title: 主页
-hide:
-- navigation
-- toc
+template: redirect.html
+location: /blog/
 ---
-
-# 欢迎来到Vibyird的笔记
-
-主要写一些博客和做一些知识的归纳整理。
