@@ -15,10 +15,10 @@ theme:
   # - content.action.edit
   # - content.action.view
   # - content.code.annotate
-  # - content.code.copy
+  - content.code.copy
   # - content.code.select
   # - content.footnote.tooltips
-  # - content.tabs.link
+  - content.tabs.link
   # - content.tooltips
   # - header.autohide
   # - navigation.expand
