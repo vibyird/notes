@@ -81,6 +81,7 @@ extra:
 
 # Extensions
 markdown_extensions:
+- meta
 - attr_list
 - md_in_html
 - pymdownx.blocks.caption
