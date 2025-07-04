@@ -95,6 +95,8 @@ nav:
 - 容器: 
   - container/index.md
   - Containerd:
-    - Get started: container/containerd/get-started.md
+    - container/containerd/get-started.md
+    - container/containerd/rootless.md
+    - container/containerd/build.md
 - 网络: 
   - network/index.md
