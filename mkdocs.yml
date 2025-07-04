@@ -74,6 +74,7 @@ plugins:
 
 # Additional configuration
 extra:
+  homepage: /blog/
   generator: false
   social:
     - icon: fontawesome/brands/github
