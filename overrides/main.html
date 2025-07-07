@@ -2,13 +2,24 @@
 
 {% block extrahead %}
   {% set title = config.site_name %}
-  {% if page and page.meta and page.meta.title %}
-    {% set title = page.meta.title %}
-  {% elif page and page.title and not page.is_homepage %}
-    {% set title = page.title | striptags %}
+  {% set description = config.site_description %}
+  {% if page %}
+    {% if page.meta and page.meta.title and page.meta.title != '主页' %}
+      {% set title = page.meta.title %}
+    {% elif page.title and page.title != '主页' %}
+      {% set title = page.title | striptags %}
+    {% endif %}
+    {# Retain the parent title to prevent conflicts between different titles #}
+    {% if page.parent and page.parent.title != '主页' and page.parent.title != title %} 
+      {% set title = page.parent.title ~ "/" ~ title %}
+    {% endif %}
+
+    {% if page.meta and page.meta.description %}
+      {% set description = page.meta.description %}
+    {% endif %}
   {% endif %}
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{{ title }}" />
-  <meta property="og:description" content="{{ config.site_description }}" />
+  <meta property="og:description" content="{{ description }}" />
   <meta property="og:url" content="{{ page.canonical_url }}" />
 {% endblock %}
