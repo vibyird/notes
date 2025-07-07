@@ -44,21 +44,21 @@ theme:
   # Palette toggle for automatic mode
   - media: "(prefers-color-scheme)"
     toggle:
-      icon: material/brightness-6
+      icon: fontawesome/solid/circle-half-stroke
       name: 系统默认
   # Palette toggle for light mode
   - media: "(prefers-color-scheme: light)"
     scheme: default
     primary: white
     toggle:
-      icon: material/brightness-7
+      icon: fontawesome/solid/sun
       name: 浅色模式
   # Palette toggle for dark mode
   - media: "(prefers-color-scheme: dark)"
     scheme: slate
     primary: black
     toggle:
-      icon: material/brightness-4
+      icon: fontawesome/solid/moon
       name: 深色模式
 
 # Plugins
