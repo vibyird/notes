@@ -46,8 +46,8 @@ jobs -x cmd [arg …]     # 将cmd命令中的任务ID转成进程ID，并执行
 
 ### 进程、进程组和会话
 
-![Process, Process group & Session](../images/task-and-process/1-light.png#only-light)
-![Process, Process group & Session](../images/task-and-process/1-dark.png#only-dark)
+![Process, Process group & Session](../../assets/images/task-and-process/1-light.png#only-light)
+![Process, Process group & Session](../../assets/images/task-and-process/1-dark.png#only-dark)
 
 1. 每个会话有1个或多个进程组组成，可能有一个领头进程((session leader))，也可能没有。 
 2. 会话领导进程的PID成为识别会话的SID(session ID) 。
