@@ -1,21 +1,42 @@
-printWidth: 120 # Print Width, Default: 80
-tabWidth: 2 # Tab Width, Default: 2
-useTabs: false # Tabs, Default: false
-semi: false # Semicolons, Default: true
-singleQuote: true # Quotes, Default: false
-quoteProps: 'consistent' # Quote Props, Valid options: "as-needed" "consistent" "preserve", Default: "as-needed"
-jsxSingleQuote: false # JSX Quotes, Default: false
-trailingComma: 'all' # Trailing Commas, Valid options: "all" "es5" "none", Default: "all"
-bracketSpacing: true # Bracket Spacing, Default: true
-objectWrap: 'preserve' # Object Wrap, Valid options: "preserve" "collapse", Default: "preserve"
-bracketSameLine: true # Bracket Line, Default: false
-arrowParens: 'always' # Arrow Function Parentheses, Valid options: "always" "avoid", Default: "always"
-requirePragma: false # Require Pragma, Default: false
-insertPragma: false # Insert Pragma, Default: false
-checkIgnorePragma: false # Check Ignore Pragma, Default: false
-proseWrap: 'preserve' # Prose Wrap, Valid options: "always" "never" "preserve", Default: "preserve"
-htmlWhitespaceSensitivity: 'ignore' # HTML Whitespace Sensitivity, Valid options: "css" "strict" "ignore", Default: "css"
-vueIndentScriptAndStyle: false # Vue files script and style tags indentation, Default: false
-endOfLine: 'lf' # Vue files script and style tags indentation, Valid options: "lf" "crlf" "cr" "auto", Default: "lf"
-embeddedLanguageFormatting: 'auto' # Embedded Language Formatting, Valid options: "auto" "off", Default: "auto"
-singleAttributePerLine: false # Single Attribute Per Line, Default: false
+# Print Width, Default: 80
+printWidth: 120
+# Tab Width, Default: 2
+tabWidth: 2
+# Tabs, Default: false
+useTabs: false
+# Semicolons, Default: true
+semi: false
+# Quotes, Default: false
+singleQuote: true
+# Quote Props, Valid options: "as-needed" "consistent" "preserve", Default: "as-needed"
+quoteProps: 'consistent'
+# JSX Quotes, Default: false
+jsxSingleQuote: false
+# Trailing Commas, Valid options: "all" "es5" "none", Default: "all"
+trailingComma: 'all'
+# Bracket Spacing, Default: true
+bracketSpacing: true
+# Object Wrap, Valid options: "preserve" "collapse", Default: "preserve"
+objectWrap: 'preserve'
+# Bracket Line, Default: false
+bracketSameLine: true
+# Arrow Function Parentheses, Valid options: "always" "avoid", Default: "always"
+arrowParens: 'always'
+# Require Pragma, Default: false
+requirePragma: false
+# Insert Pragma, Default: false
+insertPragma: false
+# Check Ignore Pragma, Default: false
+checkIgnorePragma: false
+# Prose Wrap, Valid options: "always" "never" "preserve", Default: "preserve"
+proseWrap: 'preserve'
+# HTML Whitespace Sensitivity, Valid options: "css" "strict" "ignore", Default: "css"
+htmlWhitespaceSensitivity: 'ignore'
+# Vue files script and style tags indentation, Default: false
+vueIndentScriptAndStyle: false
+# Vue files script and style tags indentation, Valid options: "lf" "crlf" "cr" "auto", Default: "lf"
+endOfLine: 'lf'
+# Embedded Language Formatting, Valid options: "auto" "off", Default: "auto"
+embeddedLanguageFormatting: 'auto'
+# Single Attribute Per Line, Default: false
+singleAttributePerLine: false
