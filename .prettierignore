@@ -1,10 +1,11 @@
-
 *.jpg
 *.jpeg
 *.png
+*.ico
 
 .gitignore
 .prettierignore
+.vercelignore
 
 LICENSE
 
