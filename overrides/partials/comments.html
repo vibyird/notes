@@ -30,6 +30,7 @@
       // Instruct Giscus to set theme
       giscus.setAttribute("data-theme", theme) 
     }
+    hljs.highlightAll()
 
     // Register event handlers after documented loaded
     document.addEventListener("DOMContentLoaded", function() {
@@ -48,6 +49,7 @@
             "https://giscus.app"
           )
         }
+        hljs.highlightAll()
       })
     })
   </script>
