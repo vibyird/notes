@@ -2,7 +2,5 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "PATH=/python312/bin:$PATH mkdocs build && rm site/index.html",
   "outputDirectory": "site",
-  "redirects": [
-    { "source": "/", "destination": "/blog/", "permanent": false }
-  ]
+  "redirects": [{ "source": "/", "destination": "/blog/", "permanent": false }]
 }
