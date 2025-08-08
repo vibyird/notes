@@ -1,14 +1,14 @@
-# Print Width, Default: 80
+# [Changed] Print Width, Default: 80
 printWidth: 120
 # Tab Width, Default: 2
 tabWidth: 2
 # Tabs, Default: false
 useTabs: false
-# Semicolons, Default: true
+# [Changed] Semicolons, Default: true
 semi: false
-# Quotes, Default: false
+# [Changed] Quotes, Default: false
 singleQuote: true
-# Quote Props, Valid options: "as-needed" "consistent" "preserve", Default: "as-needed"
+# [Changed] Quote Props, Valid options: "as-needed" "consistent" "preserve", Default: "as-needed"
 quoteProps: 'consistent'
 # JSX Quotes, Default: false
 jsxSingleQuote: false
@@ -18,7 +18,7 @@ trailingComma: 'all'
 bracketSpacing: true
 # Object Wrap, Valid options: "preserve" "collapse", Default: "preserve"
 objectWrap: 'preserve'
-# Bracket Line, Default: false
+# [Changed] Bracket Line, Default: false
 bracketSameLine: true
 # Arrow Function Parentheses, Valid options: "always" "avoid", Default: "always"
 arrowParens: 'always'
@@ -30,7 +30,7 @@ insertPragma: false
 checkIgnorePragma: false
 # Prose Wrap, Valid options: "always" "never" "preserve", Default: "preserve"
 proseWrap: 'preserve'
-# HTML Whitespace Sensitivity, Valid options: "css" "strict" "ignore", Default: "css"
+# [Changed] HTML Whitespace Sensitivity, Valid options: "css" "strict" "ignore", Default: "css"
 htmlWhitespaceSensitivity: 'ignore'
 # Vue files script and style tags indentation, Default: false
 vueIndentScriptAndStyle: false
