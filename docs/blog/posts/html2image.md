@@ -103,7 +103,7 @@ server.listen(8001, function (request, response) {
 
     response.statusCode = 200
     response.headers = {
-      Cache: 'no-cache',
+      'Cache': 'no-cache',
       'Content-Type': 'image/' + format,
     }
 
