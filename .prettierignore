@@ -1,0 +1,13 @@
+
+*.jpg
+*.jpeg
+*.png
+
+.gitignore
+.prettierignore
+
+LICENSE
+
+requirements.txt
+
+overrides/**/*.html
