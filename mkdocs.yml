@@ -92,7 +92,6 @@ extra_css:
   # - https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.11.1/build/styles/github.min.css
   - https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.11.1/build/styles/github-dark.min.css
 
-
 # Page tree
 nav:
   - 主页:
