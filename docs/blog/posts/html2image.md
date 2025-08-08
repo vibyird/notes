@@ -82,35 +82,35 @@ var Base64Binary = {
 ### Html2Image服务
 
 ```javascript
-var server = require("webserver").create();
+var server = require('webserver').create()
 
 server.listen(8001, function (request, response) {
-  var format = "png";
+  var format = 'png'
 
-  var page = require("webpage").create();
+  var page = require('webpage').create()
 
   page.viewportSize = {
     width: 800,
     height: 600,
-  };
+  }
 
-  page.content = request.post;
+  page.content = request.post
 
   page.onLoadFinished = function (status) {
     // Buffer is an binary string
-    var buffer_base64 = page.renderBase64(format);
-    buffer = Base64Binary.decode(buffer_base64);
+    var buffer_base64 = page.renderBase64(format)
+    buffer = Base64Binary.decode(buffer_base64)
 
-    response.statusCode = 200;
+    response.statusCode = 200
     response.headers = {
-      Cache: "no-cache",
-      "Content-Type": "image/" + format,
-    };
+      Cache: 'no-cache',
+      'Content-Type': 'image/' + format,
+    }
 
     // Pass the Buffer to 'write' to send the binary string to the client
-    response.setEncoding("binary");
-    response.write(buffer);
-    response.close();
-  };
-});
+    response.setEncoding('binary')
+    response.write(buffer)
+    response.close()
+  }
+})
 ```
