@@ -30,8 +30,8 @@ insertPragma: false
 checkIgnorePragma: false
 # Prose Wrap, Valid options: "always" "never" "preserve", Default: "preserve"
 proseWrap: 'preserve'
-# [Changed] HTML Whitespace Sensitivity, Valid options: "css" "strict" "ignore", Default: "css"
-htmlWhitespaceSensitivity: 'ignore'
+# HTML Whitespace Sensitivity, Valid options: "css" "strict" "ignore", Default: "css"
+htmlWhitespaceSensitivity: 'css'
 # Vue files script and style tags indentation, Default: false
 vueIndentScriptAndStyle: false
 # Vue files script and style tags indentation, Valid options: "lf" "crlf" "cr" "auto", Default: "lf"
