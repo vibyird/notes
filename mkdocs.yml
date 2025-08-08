@@ -13,66 +13,66 @@ theme:
   language: zh
   custom_dir: overrides
   features:
-  # - announce.dismiss
-  # - content.action.edit
-  # - content.action.view
-  # - content.code.annotate
-  - content.code.copy
-  # - content.code.select
-  # - content.footnote.tooltips
-  - content.tabs.link
-  # - content.tooltips
-  # - header.autohide
-  # - navigation.expand
-  # - navigation.footer
-  - navigation.indexes
-  - navigation.instant
-  - navigation.instant.prefetch
-  - navigation.instant.progress
-  # - navigation.prune
-  - navigation.sections
-  - navigation.tabs
-  # - navigation.tabs.sticky
-  - navigation.top
-  # - navigation.tracking
-  # - search.highlight
-  # - search.share
-  # - search.suggest
-  - toc.follow
+    # - announce.dismiss
+    # - content.action.edit
+    # - content.action.view
+    # - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.footnote.tooltips
+    - content.tabs.link
+    # - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    # - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    # - navigation.tracking
+    # - search.highlight
+    # - search.share
+    # - search.suggest
+    - toc.follow
   palette:
-  # Palette toggle for automatic mode
-  - media: "(prefers-color-scheme)"
-    toggle:
-      icon: fontawesome/solid/circle-half-stroke
-      name: 系统默认
-  # Palette toggle for light mode
-  - media: "(prefers-color-scheme: light)"
-    scheme: default
-    primary: white
-    toggle:
-      icon: fontawesome/solid/sun
-      name: 浅色模式
-  # Palette toggle for dark mode
-  - media: "(prefers-color-scheme: dark)"
-    scheme: slate
-    primary: black
-    toggle:
-      icon: fontawesome/solid/moon
-      name: 深色模式
+    # Palette toggle for automatic mode
+    - media: '(prefers-color-scheme)'
+      toggle:
+        icon: fontawesome/solid/circle-half-stroke
+        name: 系统默认
+    # Palette toggle for light mode
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: white
+      toggle:
+        icon: fontawesome/solid/sun
+        name: 浅色模式
+    # Palette toggle for dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: black
+      toggle:
+        icon: fontawesome/solid/moon
+        name: 深色模式
 
 # Plugins
 plugins:
-- blog:
-    post_url_format: "{date}/{file}"
-- meta
-- search
-- git-revision-date-localized:
-    type: date
-    timezone: Asia/Shanghai
-    locale: zh_CN
-    exclude:
-    - index.md
-    - blog/*
+  - blog:
+      post_url_format: '{date}/{file}'
+  - meta
+  - search
+  - git-revision-date-localized:
+      type: date
+      timezone: Asia/Shanghai
+      locale: zh_CN
+      exclude:
+        - index.md
+        - blog/*
 
 # Additional configuration
 extra:
@@ -84,21 +84,21 @@ extra:
 
 # Extensions
 markdown_extensions:
-- attr_list
-- md_in_html
-- pymdownx.blocks.caption
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
 
 # Page tree
 nav:
-- 主页: 
-  - blog/index.md
-- 容器: 
-  - container/index.md
-  - Docker:
-    - container/docker/index.md
-  - Containerd:
-    - container/containerd/get-started.md
-    - container/containerd/rootless.md
-    - container/containerd/build.md
-- 网络: 
-  - network/index.md
+  - 主页:
+      - blog/index.md
+  - 容器:
+      - container/index.md
+      - Docker:
+          - container/docker/index.md
+      - Containerd:
+          - container/containerd/get-started.md
+          - container/containerd/rootless.md
+          - container/containerd/build.md
+  - 网络:
+      - network/index.md
