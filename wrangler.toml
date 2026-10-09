@@ -1,5 +1,6 @@
 name = "notes"
-compatibility_date = "2025-12-01"
+compatibility_date = "2026-08-04"
+workers_dev = false
 
 [assets]
 directory = "./site"

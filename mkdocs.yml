@@ -7,9 +7,23 @@ site_description: Vibyird写的博客和归纳整理的知识笔记
 # Copyright
 copyright: Copyright &copy; 2025 Vibyird
 
+# Navigation
+nav:
+  - 主页:
+      - blog/index.md
+  - 容器:
+      - container/index.md
+      - Docker:
+          - container/docker/index.md
+      - Containerd:
+          - container/containerd/get-started.md
+          - container/containerd/rootless.md
+          - container/containerd/build.md
+  - 网络:
+      - network/index.md
+
 # Configuration
 theme:
-  name: material
   language: zh
   custom_dir: overrides
   features:
@@ -29,6 +43,7 @@ theme:
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
+    # - navigation.path
     # - navigation.prune
     - navigation.sections
     - navigation.tabs
@@ -36,28 +51,25 @@ theme:
     - navigation.top
     # - navigation.tracking
     # - search.highlight
-    # - search.share
-    # - search.suggest
     - toc.follow
+    # - toc.integrate
   palette:
     # Palette toggle for automatic mode
     - media: '(prefers-color-scheme)'
       toggle:
-        icon: fontawesome/solid/circle-half-stroke
+        icon: lucide/sun-moon
         name: 系统默认
     # Palette toggle for light mode
     - media: '(prefers-color-scheme: light)'
       scheme: default
-      primary: white
       toggle:
-        icon: fontawesome/solid/sun
+        icon: lucide/sun
         name: 浅色模式
     # Palette toggle for dark mode
     - media: '(prefers-color-scheme: dark)'
       scheme: slate
-      primary: black
       toggle:
-        icon: fontawesome/solid/moon
+        icon: lucide/moon
         name: 深色模式
 
 # Plugins
@@ -66,13 +78,6 @@ plugins:
       post_url_format: '{date}/{file}'
   - meta
   - search
-  - git-revision-date-localized:
-      type: date
-      timezone: Asia/Shanghai
-      locale: zh_CN
-      exclude:
-        - index.md
-        - blog/*
 
 # Additional configuration
 extra:
@@ -86,23 +91,18 @@ extra:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - pymdownx.blocks.admonition
   - pymdownx.blocks.caption
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: pymdownx.superfences.fence_code_format
 
 extra_javascript:
-  - https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.11.1/build/highlight.min.js
   - assets/javascripts/extra.js
-
-# Page tree
-nav:
-  - 主页:
-      - blog/index.md
-  - 容器:
-      - container/index.md
-      - Docker:
-          - container/docker/index.md
-      - Containerd:
-          - container/containerd/get-started.md
-          - container/containerd/rootless.md
-          - container/containerd/build.md
-  - 网络:
-      - network/index.md
