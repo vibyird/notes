@@ -78,6 +78,14 @@ plugins:
       post_url_format: '{date}/{file}'
   - meta
   - search
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      js_files:
+        - assets/javascripts/extra.js
+      minify_inline_js: true
+      minify_inline_css: true
 
 # Additional configuration
 extra:
