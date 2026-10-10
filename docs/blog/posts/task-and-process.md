@@ -63,13 +63,13 @@ jobs -x cmd [arg …]     # 将cmd命令中的任务ID转成进程ID，并执行
 如何避免进程在终端结束时也随之结束呢？
 
 - 方案一：让进程忽略 HUP 信号
-  - nohup cmd [arg …]
-  - disown -h [jobspec …]
+  - nohup cmd \[arg …\]
+  - disown -h \[jobspec …]
   - disown –ah
   - disown –rh
 - 方案二：让进程不属于此终端的子进程
-  - setsid cmd [arg …]
-  - (cmd [arg …] &)
+  - setsid cmd \[arg …\]
+  - (cmd \[arg …\] &)
 
 ## Daemon
 
